@@ -1,0 +1,10 @@
+C:\Users\Взрослая академия\source\repos\23.05.25_2\23.05.25_2\bin\Debug\23.05.25_2.exe.config
+C:\Users\Взрослая академия\source\repos\23.05.25_2\23.05.25_2\bin\Debug\23.05.25_2.exe
+C:\Users\Взрослая академия\source\repos\23.05.25_2\23.05.25_2\bin\Debug\23.05.25_2.pdb
+C:\Users\Взрослая академия\source\repos\23.05.25_2\23.05.25_2\obj\Debug\23.05.25_2.csproj.AssemblyReference.cache
+C:\Users\Взрослая академия\source\repos\23.05.25_2\23.05.25_2\obj\Debug\_23._05._25_2.Form1.resources
+C:\Users\Взрослая академия\source\repos\23.05.25_2\23.05.25_2\obj\Debug\_23._05._25_2.Properties.Resources.resources
+C:\Users\Взрослая академия\source\repos\23.05.25_2\23.05.25_2\obj\Debug\23.05.25_2.csproj.GenerateResource.cache
+C:\Users\Взрослая академия\source\repos\23.05.25_2\23.05.25_2\obj\Debug\23.05.25_2.csproj.CoreCompileInputs.cache
+C:\Users\Взрослая академия\source\repos\23.05.25_2\23.05.25_2\obj\Debug\23.05.25_2.exe
+C:\Users\Взрослая академия\source\repos\23.05.25_2\23.05.25_2\obj\Debug\23.05.25_2.pdb
