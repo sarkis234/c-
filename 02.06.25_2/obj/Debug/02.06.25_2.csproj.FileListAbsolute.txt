@@ -1,0 +1,11 @@
+C:\Users\Взрослая академия\Desktop\Хамчиев Али\02.06.25_2\bin\Debug\02.06.25_2.exe.config
+C:\Users\Взрослая академия\Desktop\Хамчиев Али\02.06.25_2\bin\Debug\02.06.25_2.exe
+C:\Users\Взрослая академия\Desktop\Хамчиев Али\02.06.25_2\bin\Debug\02.06.25_2.pdb
+C:\Users\Взрослая академия\Desktop\Хамчиев Али\02.06.25_2\obj\Debug\02.06.25_2.csproj.AssemblyReference.cache
+C:\Users\Взрослая академия\Desktop\Хамчиев Али\02.06.25_2\obj\Debug\02.06.25_2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Взрослая академия\Desktop\Хамчиев Али\02.06.25_2\obj\Debug\_02._06._25_2.Form1.resources
+C:\Users\Взрослая академия\Desktop\Хамчиев Али\02.06.25_2\obj\Debug\_02._06._25_2.Properties.Resources.resources
+C:\Users\Взрослая академия\Desktop\Хамчиев Али\02.06.25_2\obj\Debug\02.06.25_2.csproj.GenerateResource.cache
+C:\Users\Взрослая академия\Desktop\Хамчиев Али\02.06.25_2\obj\Debug\02.06.25_2.csproj.CoreCompileInputs.cache
+C:\Users\Взрослая академия\Desktop\Хамчиев Али\02.06.25_2\obj\Debug\02.06.25_2.exe
+C:\Users\Взрослая академия\Desktop\Хамчиев Али\02.06.25_2\obj\Debug\02.06.25_2.pdb
