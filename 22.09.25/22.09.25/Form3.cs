@@ -8,11 +8,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace _22._09._25
 {
     public partial class Form3 : Form
     {
+        public event Action<Order> addNewOrder;
         public Form3()
         {
             InitializeComponent();
