@@ -10,12 +10,7 @@ namespace _22._09._25
 {
     public class Order
     {
-        private string id, budget, cotton, wood, leather, ceramics, plastic, glass, metal, name;
-        public string Id
-        {
-            get { return id; }
-            set { id = value; }
-        }
+        private string budget, cotton, wood, leather, ceramics, plastic, glass, metal, name;
         public string Name
         {   get{return name;}
             set { name = value; }
@@ -60,8 +55,7 @@ namespace _22._09._25
             get { return metal; }
             set { metal = value; }
         }
-        public Order(string id, string name, string budget, string cotton, string wood, string leather, string ceramics, string plastic, string glass, string metal) {
-            this.id = id;
+        public Order(string name, string budget, string cotton, string wood, string leather, string ceramics, string plastic, string glass, string metal) {
             this.budget = budget;
             this.cotton = cotton;
             this.wood = wood;

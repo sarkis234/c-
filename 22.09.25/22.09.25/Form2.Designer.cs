@@ -50,6 +50,10 @@
             this.label1 = new System.Windows.Forms.Label();
             this.textBoxDelName = new System.Windows.Forms.TextBox();
             this.buttonDelOk = new System.Windows.Forms.Button();
+            this.buttonDone = new System.Windows.Forms.Button();
+            this.buttonDoneOk = new System.Windows.Forms.Button();
+            this.textBoxDone = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // labelBudget
@@ -208,7 +212,7 @@
             // 
             // buttonDeleteOrder
             // 
-            this.buttonDeleteOrder.Location = new System.Drawing.Point(527, 21);
+            this.buttonDeleteOrder.Location = new System.Drawing.Point(537, 21);
             this.buttonDeleteOrder.Name = "buttonDeleteOrder";
             this.buttonDeleteOrder.Size = new System.Drawing.Size(115, 23);
             this.buttonDeleteOrder.TabIndex = 17;
@@ -218,7 +222,7 @@
             // 
             // buttonOrdersList
             // 
-            this.buttonOrdersList.Location = new System.Drawing.Point(392, 21);
+            this.buttonOrdersList.Location = new System.Drawing.Point(286, 21);
             this.buttonOrdersList.Name = "buttonOrdersList";
             this.buttonOrdersList.Size = new System.Drawing.Size(115, 23);
             this.buttonOrdersList.TabIndex = 18;
@@ -234,6 +238,7 @@
             this.label1.Size = new System.Drawing.Size(96, 13);
             this.label1.TabIndex = 19;
             this.label1.Text = "Название заказа";
+            this.label1.Visible = false;
             // 
             // textBoxDelName
             // 
@@ -241,6 +246,7 @@
             this.textBoxDelName.Name = "textBoxDelName";
             this.textBoxDelName.Size = new System.Drawing.Size(100, 20);
             this.textBoxDelName.TabIndex = 20;
+            this.textBoxDelName.Visible = false;
             // 
             // buttonDelOk
             // 
@@ -250,13 +256,57 @@
             this.buttonDelOk.TabIndex = 21;
             this.buttonDelOk.Text = "OK";
             this.buttonDelOk.UseVisualStyleBackColor = true;
+            this.buttonDelOk.Visible = false;
             this.buttonDelOk.Click += new System.EventHandler(this.buttonDelOk_Click);
+            // 
+            // buttonDone
+            // 
+            this.buttonDone.Location = new System.Drawing.Point(411, 21);
+            this.buttonDone.Name = "buttonDone";
+            this.buttonDone.Size = new System.Drawing.Size(115, 23);
+            this.buttonDone.TabIndex = 22;
+            this.buttonDone.Text = "Выполнить заказ";
+            this.buttonDone.UseVisualStyleBackColor = true;
+            this.buttonDone.Click += new System.EventHandler(this.buttonDone_Click);
+            // 
+            // buttonDoneOk
+            // 
+            this.buttonDoneOk.Location = new System.Drawing.Point(420, 122);
+            this.buttonDoneOk.Name = "buttonDoneOk";
+            this.buttonDoneOk.Size = new System.Drawing.Size(75, 23);
+            this.buttonDoneOk.TabIndex = 25;
+            this.buttonDoneOk.Text = "OK";
+            this.buttonDoneOk.UseVisualStyleBackColor = true;
+            this.buttonDoneOk.Visible = false;
+            this.buttonDoneOk.Click += new System.EventHandler(this.buttonDoneOk_Click);
+            // 
+            // textBoxDone
+            // 
+            this.textBoxDone.Location = new System.Drawing.Point(411, 83);
+            this.textBoxDone.Name = "textBoxDone";
+            this.textBoxDone.Size = new System.Drawing.Size(100, 20);
+            this.textBoxDone.TabIndex = 24;
+            this.textBoxDone.Visible = false;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(408, 57);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(96, 13);
+            this.label2.TabIndex = 23;
+            this.label2.Text = "Название заказа";
+            this.label2.Visible = false;
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.buttonDoneOk);
+            this.Controls.Add(this.textBoxDone);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.buttonDone);
             this.Controls.Add(this.buttonDelOk);
             this.Controls.Add(this.textBoxDelName);
             this.Controls.Add(this.label1);
@@ -310,5 +360,9 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBoxDelName;
         private System.Windows.Forms.Button buttonDelOk;
+        private System.Windows.Forms.Button buttonDone;
+        private System.Windows.Forms.Button buttonDoneOk;
+        private System.Windows.Forms.TextBox textBoxDone;
+        private System.Windows.Forms.Label label2;
     }
 }
